@@ -1,8 +1,8 @@
 import pandas as pd
 from data.data_utils import *
 
-trainSim = pd.read_csv("./data/MZVAV-2-2.csv",index_col=0,parse_dates=True)
-dataReal = pd.read_csv("./data/MZVAV-2-1.csv",index_col=0,parse_dates=True)
+trainSim = pd.read_csv("/content/present_data/data/MZVAV-2-2.csv",index_col=0,parse_dates=True)
+dataReal = pd.read_csv("/content/present_data/data/MZVAV-2-1.csv",index_col=0,parse_dates=True)
 
 trainSim.columns = column_names
 dataReal.columns = column_names
